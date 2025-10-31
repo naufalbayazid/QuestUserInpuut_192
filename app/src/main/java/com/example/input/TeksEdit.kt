@@ -1,7 +1,9 @@
 package com.example.input
 
+import androidx.compose.material3.RadioButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
@@ -41,4 +43,9 @@ Column(modifier = Modifier.padding(top= 50.dp),
 
         Row{
 
-        }
+            gender.forEach { item ->
+                Row(modifier = Modifier.selectable(
+                    selected = textJK == item,
+
+
+
