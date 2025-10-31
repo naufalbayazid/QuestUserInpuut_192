@@ -41,3 +41,13 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
     val jenisKelaminOptions = listOf("Laki-laki", "Perempuan")
     val statusPerkawinanOptions = listOf("Janda", "Duda", "Belum Menikah")
 
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .statusBarsPadding()
+            .verticalScroll(rememberScrollState())
+            .padding(20.dp),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.Start
+    ) {}
+
