@@ -190,3 +190,8 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
             ),
             shape = MaterialTheme.shapes.medium
         ) {
+            Text(
+                text = "Submit",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(vertical = 8.dp)
