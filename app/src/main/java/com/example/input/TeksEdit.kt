@@ -59,3 +59,12 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(bottom = 24.dp)
         )
 
+
+        Text(
+            text = "NAMA LENGKAP",
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+
