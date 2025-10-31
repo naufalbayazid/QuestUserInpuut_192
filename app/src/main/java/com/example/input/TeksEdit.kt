@@ -21,3 +21,9 @@ fun FormDataDiri(modifier: Modifier)
 
     val gender:List<String> = listOf("laki-laki", "Perempuan")
 }
+
+Column(modifier = Modifier.padding(top= 50.dp),
+        verticalArrangement = Arrangement.Top,
+
+        horizontalAligment = Aligment.Top,
+        OutlinedTextField
