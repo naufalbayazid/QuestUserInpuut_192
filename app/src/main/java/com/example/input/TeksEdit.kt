@@ -68,4 +68,17 @@ OutlinedTextField(
     modifier = Modifier.width(250.dp),
 
     label = { Text(text = "Alamat Lengkap")},
+
+    onValueChange = {
+        textAlamat = it
+    }
 )
+
+Divider(
+    modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_medium), top = dimensionResource(
+        id = R.dimen.padding_medium
+    )),
+    thicknes = dimensionResource(R.dimen.divider_tipis),
+    color = Color.DarkGray
+)
+
