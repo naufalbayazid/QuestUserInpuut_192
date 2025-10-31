@@ -80,3 +80,11 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(24.dp))
 
 
+        Text(
+            text = "JENIS KELAMIN",
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+
