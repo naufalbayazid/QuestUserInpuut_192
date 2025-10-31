@@ -32,3 +32,13 @@ Column(modifier = Modifier.padding(top= 50.dp),
             shape = MaterialTheme.shapes.large,
             modifier = Modifier.width(250.dp),
 
+            label = {Text(text = "Nama Lengkap") },
+
+            onValueChange = {
+                textNama = it
+            }
+        )
+
+        Row{
+
+        }
