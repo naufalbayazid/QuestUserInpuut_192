@@ -81,4 +81,16 @@ Divider(
     thicknes = dimensionResource(R.dimen.divider_tipis),
     color = Color.DarkGray
 )
+Button(
+    modifier = modifier.fillMaxWidth(if),
+    // the button is ennabled
+    enabled = textAlamat.isNotEmpty(),
 
+    onClick = {
+        nama=textNama
+        jenis=textJK
+        alamat=textAlamat
+    }
+)   {
+
+}
