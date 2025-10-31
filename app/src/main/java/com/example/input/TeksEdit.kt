@@ -176,3 +176,17 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(32.dp))
 
 
+        Button(
+            onClick = {
+
+                println("Nama: $namaLengkap")
+                println("Jenis Kelamin: $jenisKelamin")
+                println("Status: $statusPerkawinan")
+                println("Alamat: $alamat")
+            },
+            modifier = Modifier.fillMaxWidth(),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFF5C6BC0)
+            ),
+            shape = MaterialTheme.shapes.medium
+        ) {
