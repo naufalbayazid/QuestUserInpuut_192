@@ -136,4 +136,20 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
                     )
                     .padding(vertical = 4.dp),
                 verticalAlignment = Alignment.CenterVertically
-            ) {}
+            ) {
+                RadioButton(
+                    selected = (statusPerkawinan == option),
+                    onClick = { statusPerkawinan = option },
+                    colors = RadioButtonDefaults.colors(
+                        selectedColor = Color.White,
+                        unselectedColor = Color.White.copy(alpha = 0.6f)
+                    )
+                )
+                Text(
+                    text = option,
+                    color = Color.White,
+                    modifier = Modifier.padding(start = 8.dp)
+                )
+            }
+        }
+
