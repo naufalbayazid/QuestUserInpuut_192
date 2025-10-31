@@ -195,3 +195,7 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(vertical = 8.dp)
+            )
+        }
+    }
+}
