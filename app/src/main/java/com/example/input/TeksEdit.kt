@@ -68,3 +68,12 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(bottom = 8.dp)
         )
 
+        OutlinedTextField(
+            value = namaLengkap,
+            onValueChange = { namaLengkap = it },
+            placeholder = { Text("Masih nama lengkap", color = Color.White.copy(alpha = 0.6f)) },
+            modifier = Modifier.fillMaxWidth(),
+            singleLine = true,
+            shape = MaterialTheme.shapes.small
+        )
+
