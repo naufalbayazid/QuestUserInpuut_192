@@ -49,5 +49,13 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
             .padding(20.dp),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.Start
-    ) {}
+    ) {
+
+        Text(
+            text = "Formulir Pendaftaran",
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+            modifier = Modifier.padding(bottom = 24.dp)
+        )
 
