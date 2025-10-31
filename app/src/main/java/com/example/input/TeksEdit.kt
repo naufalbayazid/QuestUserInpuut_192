@@ -26,4 +26,9 @@ Column(modifier = Modifier.padding(top= 50.dp),
         verticalArrangement = Arrangement.Top,
 
         horizontalAligment = Aligment.Top,
-        OutlinedTextField
+        OutlinedTextField(
+            value = textNama,
+            singleLine = true,
+            shape = MaterialTheme.shapes.large,
+            modifier = Modifier.width(250.dp),
+
