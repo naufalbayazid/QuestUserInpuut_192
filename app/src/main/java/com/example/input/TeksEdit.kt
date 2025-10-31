@@ -77,3 +77,6 @@ fun FormulirPendaftaran(modifier: Modifier = Modifier) {
             shape = MaterialTheme.shapes.small
         )
 
+        Spacer(modifier = Modifier.height(24.dp))
+
+
